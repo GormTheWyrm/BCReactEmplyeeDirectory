@@ -1,6 +1,9 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import logo from "./logo.svg";
+import "./App.css";
+import Header from "./components/Header"
+import Directory from "./components/Directory"
+// import OptionsTab from "./components/OptionsTab";
 
 function App() {
   return (
@@ -18,7 +21,16 @@ function App() {
         >
           Learn React
         </a>
+
+    
+        <Header />
+        <Directory />
+
       </header>
+
+
+
+
     </div>
   );
 }

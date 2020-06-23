@@ -30,3 +30,24 @@ The user should be able to:
 
   ## Working
 
+Do I need a database for this? yes, mongo db
+
+compenent list:  
+- header with info on sorting
+- employee div that olds invididual info
+- parent that directs and controls the state - will tell eployee div waht to display
+ - ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+**I need to be able to:**
+* sort by name
+* filter users by... 
+* needs to have a table
+* default sorted by... id?
+
+...id, role, salary, department, firstname, lastname
+
+
+1. directory: Diretory.js should hold all of the components of the directory. Parent.
+2. Header: Header.js will display optons for the directory. Child of Directory.js
+- 
