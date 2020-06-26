@@ -50,4 +50,14 @@ compenent list:
 
 1. directory: Diretory.js should hold all of the components of the directory. Parent.
 2. Header: Header.js will display optons for the directory. Child of Directory.js
-- 
+- ...
+
+... .... ...
+check to make sure my directory page is still in the right area... and imports are still good. (once I have internet gain)
+
+
+*this does nto appear to need a create or delete function*
+
+
+**I need to watch video again to understand props. Dmitri explained it to me on that video**
+use map to get the full array of itms to return an element...

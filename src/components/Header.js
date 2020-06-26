@@ -5,10 +5,9 @@ import "../App.css";
 
 function Header() {
     return (
-        <div 
-        // className="App-header"
-        > Hello, This is a header </div>
-        
+        <div className={"App-header row-lg"}> 
+        <h1>Welcome to the Employee Monitoring System</h1> 
+        </div>
         );
     }
     export default Header;

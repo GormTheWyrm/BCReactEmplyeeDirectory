@@ -2,34 +2,16 @@ import React from "react";
 import logo from "./logo.svg";
 import "./App.css";
 import Header from "./components/Header"
-import Directory from "./components/Directory"
+import Directory from "./pages/Directory"
 // import OptionsTab from "./components/OptionsTab";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+    <div className={"container-lg main-background"}>
+      {/* bootsap needs testing - does multiple classes work? */}
 
-    
-        <Header />
-        <Directory />
-
-      </header>
-
-
-
+      <Header />
+      <Directory />
 
     </div>
   );
