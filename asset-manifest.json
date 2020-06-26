@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/GormTheWyrm/BCReactEmplyeeDirectory/static/css/main.a63bf79a.chunk.css",
+    "main.js": "/GormTheWyrm/BCReactEmplyeeDirectory/static/js/main.2473acde.chunk.js",
+    "main.js.map": "/GormTheWyrm/BCReactEmplyeeDirectory/static/js/main.2473acde.chunk.js.map",
+    "runtime-main.js": "/GormTheWyrm/BCReactEmplyeeDirectory/static/js/runtime-main.8e1a0442.js",
+    "runtime-main.js.map": "/GormTheWyrm/BCReactEmplyeeDirectory/static/js/runtime-main.8e1a0442.js.map",
+    "static/js/2.2421776a.chunk.js": "/GormTheWyrm/BCReactEmplyeeDirectory/static/js/2.2421776a.chunk.js",
+    "static/js/2.2421776a.chunk.js.map": "/GormTheWyrm/BCReactEmplyeeDirectory/static/js/2.2421776a.chunk.js.map",
+    "index.html": "/GormTheWyrm/BCReactEmplyeeDirectory/index.html",
+    "precache-manifest.2fcd41d9eb43d52afcbe03b03470b647.js": "/GormTheWyrm/BCReactEmplyeeDirectory/precache-manifest.2fcd41d9eb43d52afcbe03b03470b647.js",
+    "service-worker.js": "/GormTheWyrm/BCReactEmplyeeDirectory/service-worker.js",
+    "static/css/main.a63bf79a.chunk.css.map": "/GormTheWyrm/BCReactEmplyeeDirectory/static/css/main.a63bf79a.chunk.css.map",
+    "static/js/2.2421776a.chunk.js.LICENSE.txt": "/GormTheWyrm/BCReactEmplyeeDirectory/static/js/2.2421776a.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/GormTheWyrm/BCReactEmplyeeDirectory/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8e1a0442.js",
+    "static/js/2.2421776a.chunk.js",
+    "static/css/main.a63bf79a.chunk.css",
+    "static/js/main.2473acde.chunk.js"
+  ]
+}
