@@ -1,6 +1,8 @@
 # BCReactEmplyeeDirectory
 An application that allows an employer to view non-sensitive information about their employees and filter their employees by name. Bootcamp Project.
 
+https://github.com/GormTheWyrm/BCReactEmplyeeDirectory
+
 
 
 # Unit 19 React Homework: Employee Directory
