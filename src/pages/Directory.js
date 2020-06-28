@@ -32,12 +32,12 @@ componentDidMount() {
     //so put anything that needs to function each time compenent is rendered here
     this.getEmployees();    //this should populate employee data...
     //how?
-
+console.log(EmployeeList);
 }
-componentWillUpdate() {
-    //sounds like this should be used as a deconstructor... but 
+// componentWillUpdate() {
+//     //sounds like this should be used as a deconstructor... but 
 
-}
+// }
 
 // going to need to use map method to turn array into a bunch of components!
 
@@ -51,28 +51,17 @@ render() {
                 </thead>
                 <tbody>
                     {this.state.EmployeeList.map(employee => ( 
-                        <TableRow />
+                        <TableRow 
+                        myId={employee.id}
+                        firstName={employee.firstName}
+                        lastName={"l"}
+                        department={"d"}
+                        />
                         // firstname={test}
                         
 
                     ))}
 
-
-
-
-                    {/* 
-                            "details of the tableRow..."
-                        )) */}
-                    <TableRow
-                        // displasyVar ={this.state.value}
-                        displayVar={"empty"}
-                    // col2={"empty"}
-                    // there has to be a better way to do this...
-                    // xxx={this.state.datapoint}
-                    />
-                    <TableRow />
-                    {EmployeeList[0].id}
-                    {/* this might work... getting closer */}
                 </tbody>
                 {/* <p>TestVar {this.state.testVar}</p> */}
             </table>

@@ -9,18 +9,17 @@ import Column from "./Column"
 //probably do that from directory
 function TableRow(props) {
     return (
-        <div className={"row"}>
-            <Column displayVar={props.myId} />
-            <Column displayVar={"First Name_placeholder"} />
-            <Column displayVar={"Last Name_placeholder"} />
-            <Column displayVar={"Department_placeholder"} />
-            <Column displayVar={props.displayVar} />
-            {/* <Column displayVar={this.state.testVar} */}
-            {/* <Column displayVar={props.col1} */}
-            {/* role */}
-            {/* salary */}
-            {/* add an employee rating or review; 1-5 perhaps? */}
-        </div>
+        <tr>
+             <Column displayVar={props.myId} />
+            <Column displayVar={props.firstName} />
+            <Column displayVar={props.lastName} />
+            <Column displayVar={props.department} />
+            <Column displayVar={props.role} />
+            <Column displayVar={props.salary} />
+            <Column displayVar={props.rating} />
+        </tr>
+
+
         );
 }
 export default TableRow;

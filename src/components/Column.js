@@ -3,9 +3,9 @@ import "../App.css";
 
 function Column(props) {
     return (
-        <div className={"col-sm"}> 
+        <td> 
             <span>{props.displayVar}</span>
-       </div>
+       </td>
        
         
         );
