@@ -1,14 +1,17 @@
 [
     { "id": "ae01",
         "firstName": "Mike",
-        "lastName": "Wizowski"
+        "lastName": "Wizowski",
+        "department": "Propaganda"
     },
     { "id": "ae02",
         "firstName": "Shawn", 
-        "lastName": "Fawnson"
+        "lastName": "Fawnson",
+        "Department": "Propaganda"
     },
     {   "id": "ae03",
         "firstName": "Karla",
-        "lastName": "Landsdottir"
+        "lastName": "Landsdottir",
+        "Department": "Enforcement"
     }
 ]
