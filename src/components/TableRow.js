@@ -1,6 +1,6 @@
 import React from "react";
 import "../App.css";
-import Column from "./Column"
+
 
 // should I rename this EmployeeRow?
 
@@ -10,17 +10,33 @@ import Column from "./Column"
 function TableRow(props) {
     return (
         <tr>
-             <Column displayVar={props.myId} />
-            <Column displayVar={props.firstName} />
-            <Column displayVar={props.lastName} />
-            <Column displayVar={props.department} />
-            <Column displayVar={props.role} />
-            <Column displayVar={props.salary} />
-            <Column displayVar={props.rating} />
+
+            <td>
+                <span>{props.myId}</span>
+            </td>
+            <td>
+                <span>{props.firstName}</span>
+            </td>
+            <td>
+                <span>{props.lastName}</span>
+            </td>
+            <td>
+                <span>{props.department}</span>
+            </td>
+            <td>
+                <span>{props.role}</span>
+            </td>
+            <td>
+                <span>${props.salary}</span>
+            </td>
+            <td>
+                <span>{props.rating}</span>
+            </td>
+
         </tr>
 
 
-        );
+    );
 }
 export default TableRow;
 

@@ -54,8 +54,11 @@ render() {
                         <TableRow 
                         myId={employee.id}
                         firstName={employee.firstName}
-                        lastName={"l"}
-                        department={"d"}
+                        lastName={employee.lastName}
+                        department={employee.department}
+                        role={employee.role}
+                        salary={employee.salary}    //may want to look up formatting options to make this look like $$
+                        rating={employee.rating}
                         />
                         // firstname={test}
                         

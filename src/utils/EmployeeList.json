@@ -2,16 +2,25 @@
     { "id": "ae01",
         "firstName": "Mike",
         "lastName": "Wizowski",
-        "department": "Propaganda"
+        "department": "Propaganda",
+        "role": "SpokesMonster",
+        "salary": 34000,
+        "rating": 4.5
     },
     { "id": "ae02",
         "firstName": "Shawn", 
         "lastName": "Fawnson",
-        "Department": "Propaganda"
+        "department": "Propaganda",
+        "role": "Infiltrator",
+        "salary": 84000,
+        "rating": 4.7
     },
     {   "id": "ae03",
         "firstName": "Karla",
         "lastName": "Landsdottir",
-        "Department": "Enforcement"
+        "department": "Executive",
+        "role": "BodyGuard",
+        "salary": 94000,
+        "rating": 4.7
     }
 ]
