@@ -14,12 +14,15 @@ function OptionsTab(props) {
             </div>
             <div className="row">
                 <div className="col-6">
-                    <select className="custom-select">
-                        {/* <select value={props.xxx} onChange={props.xxx}> */}
+                    <select className="custom-select" value={props.filter} onChange={props.setFilter}>
+                        
+                        {/* this calls SetFilter*/}
                         <option defaultValue="all">Sort By: all </option>
-                        <option value="Propaganda">Filter By: Propaganda Department</option>
-                        <option value="2">Filter By: 2 </option>
-                        <option value="3">Filter By: 3</option>
+                        <option value="propaganda">Filter By: Propaganda Department</option>
+                        <option value="executive">Filter By: Executive Department </option>
+                        <option value="acquisitions">Filter By: Acquisitions Department</option>
+                        <option value="intelligence">Filter By: Intelligence Department</option>
+                        <option value="all">Filter By: All</option>
                     </select>
                 </div>
                 <div className="col-6">
