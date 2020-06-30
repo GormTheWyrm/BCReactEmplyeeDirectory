@@ -1,5 +1,6 @@
 [
-    { "id": "ae01",
+    {
+        "id": "ae01",
         "firstName": "Mike",
         "lastName": "Wizowski",
         "department": "Propaganda",
@@ -7,18 +8,20 @@
         "salary": 34000,
         "rating": 4.5
     },
-    { "id": "ae02",
-        "firstName": "Shawn", 
+    {
+        "id": "ae02",
+        "firstName": "Shawn",
         "lastName": "Fawnson",
         "department": "Propaganda",
         "role": "Infiltrator",
         "salary": 84000,
         "rating": 4.7
     },
-    {   "id": "ae03",
+    {
+        "id": "ae03",
         "firstName": "Karla",
         "lastName": "Landsdottir",
-        "department": "Executive",
+        "department": "Enforcement",
         "role": "BodyGuard",
         "salary": 94000,
         "rating": 4.7

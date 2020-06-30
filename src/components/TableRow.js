@@ -2,11 +2,7 @@ import React from "react";
 import "../App.css";
 
 
-// should I rename this EmployeeRow?
 
-
-// need to figure out how to make this appear as a single row in a table... 
-//probably do that from directory
 function TableRow(props) {
     return (
         <tr>
