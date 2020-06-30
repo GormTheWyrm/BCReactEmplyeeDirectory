@@ -8,7 +8,7 @@ function OptionsTab(props) {
             <div className="row">
                 <div className={"col-12"}>
                     <p>Instructions: select a value to sort and a value to filter by. </p>
-                    <p>Currently Filtered By: {props.filter} Department{props.filter === "all" ? "s" : ""} </p>
+                    <p>Currently Filtered By: {props.filter} department{props.filter === "all" ? "s" : ""} </p>
                     <p>Currently Sorted By: {props.sort}</p>
                 </div>
             </div>
@@ -24,7 +24,8 @@ function OptionsTab(props) {
                 </div>
                 <div className="col-6">
                     <select className="custom-select">
-                        <option defaultValue="id">Sort By: Id </option>
+                        <option defaultValue="default">Sort By: default </option>
+                        <option value="id">Sort By: Id </option>
                         <option value="firstName">Sort By: First Name</option>
                         <option value="lastName">Sort By: Last Name</option>
                         <option value="department">Sort By: Department</option>

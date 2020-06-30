@@ -25,9 +25,7 @@ function TableRow(props) {
             <td>
                 <span>${props.salary}</span>
             </td>
-            <td>
-                <span>{props.rating}</span>
-            </td>
+     
 
         </tr>
 

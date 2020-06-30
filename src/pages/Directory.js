@@ -17,7 +17,7 @@ class Directory extends React.Component {
     state = {
         // sortAscending: true,
         filter: "all",  //ideally I shoudl add some code to change things into lowercase
-        sort: "id",
+        sort: "default",
         //data is not in the state right now... 
         viewList: EmployeeList
         //this should initialize view list to the json data

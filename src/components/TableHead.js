@@ -12,7 +12,7 @@ function TableHead(props) {
             <th scope={"col"}>Department</th>
             <th scope={"col"}>Role</th>
             <th scope={"col"}>Salary</th>
-            <th scope={"col"}>Rating</th>
+          
             
         </tr>
         );
