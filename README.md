@@ -31,36 +31,13 @@ The user should be able to:
   * Filter the users by at least one property.
 
 
-  ## Working
+## Use and Instructions:
+Go to https://gormthewyrm.github.io/BCReactEmplyeeDirectory/ to experience the app.
 
-Do I need a database for this? yes, mongo db
-
-compenent list:  
-- header with info on sorting
-- employee div that olds invididual info
-- parent that directs and controls the state - will tell eployee div waht to display
- - ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+This app allows the user to view a set of employee data located within a json file. 
+Current functionality allows users to view this data in a table and sort the employee information by "department".
 
 
-**I need to be able to:**
-* sort by name
-* filter users by... 
-* needs to have a table
-* default sorted by... id?
-
-...id, role, salary, department, firstname, lastname
-
-
-1. directory: Diretory.js should hold all of the components of the directory. Parent.
-2. Header: Header.js will display optons for the directory. Child of Directory.js
-- ...
-
-... .... ...
-check to make sure my directory page is still in the right area... and imports are still good. (once I have internet gain)
-
-
-*this does nto appear to need a create or delete function*
-
-
-**I need to watch video again to understand props. Dmitri explained it to me on that video**
-use map to get the full array of itms to return an element...
+## current issues
+1. Website not deploying properly
+2. sort function not yet operational
