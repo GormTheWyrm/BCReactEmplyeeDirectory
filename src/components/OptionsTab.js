@@ -18,10 +18,10 @@ function OptionsTab(props) {
                         
                         {/* this calls SetFilter*/}
                         <option defaultValue="all">Sort By: all </option>
-                        <option value="propaganda">Filter By: Propaganda Department</option>
-                        <option value="executive">Filter By: Executive Department </option>
-                        <option value="acquisitions">Filter By: Acquisitions Department</option>
-                        <option value="intelligence">Filter By: Intelligence Department</option>
+                        <option value="Propaganda">Filter By: Propaganda Department</option>
+                        <option value="Executive">Filter By: Executive Department </option>
+                        <option value="Acquisitions">Filter By: Acquisitions Department</option>
+                        <option value="Intelligence">Filter By: Intelligence Department</option>
                         <option value="all">Filter By: All</option>
                     </select>
                 </div>
