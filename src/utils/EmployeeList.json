@@ -52,13 +52,13 @@
         "firstName": "Kratos",
         "lastName": "Facekrakker",
         "department": "Executive",
-        "role": "BodyGuard",
-        "salary": 89000
+        "role": "Enforcer",
+        "salary": 62000
     },
     {
         "id": "ae09",
         "firstName": "Grendel",
-        "lastName": "Bloodhand",
+        "lastName": "Bloodarm",
         "department": "Intelligence",
         "role": "Inquisitor",
         "salary": 87000
