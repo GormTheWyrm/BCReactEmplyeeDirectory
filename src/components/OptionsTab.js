@@ -7,12 +7,9 @@ function OptionsTab(props) {
         <div>
             <div className="row">
                 <div className={"col-12"}>
-                    <p>This will contain buttons for filtering,
-    sorting and displaying employees</p>
-                    <p>Filter Options: Department</p>
-                    <p>add a filter by role later</p>
-                    <p>Sort by id, department, firstname or lastname</p>
-                    <p>add a ascending or descending order toggle later</p>
+                    <p>Instructions: select a value to sort and a value to filter by. </p>
+                    <p>Currently Filtered By: {props.filter} Department{props.filter === "all" ? "s" : ""} </p>
+                    <p>Currently Sorted By: {props.sort}</p>
                 </div>
             </div>
             <div className="row">

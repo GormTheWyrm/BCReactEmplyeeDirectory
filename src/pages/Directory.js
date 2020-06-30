@@ -66,8 +66,6 @@ class Directory extends React.Component {
     componentDidUpdate() {
        //must have a condition if set state here
         console.log("update")
-        console.log(this.state.viewList);
-        console.log(EmployeeList[0]);
     }
 
 
@@ -106,7 +104,7 @@ class Directory extends React.Component {
                     Single toggle - temp button
                 </button>
 
-            <p>Filter: {this.state.filter}</p>
+          {/* temporary! */}
 
 
 
